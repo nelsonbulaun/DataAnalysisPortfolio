@@ -1,4 +1,4 @@
-# DataAnalysisPortfolio
+# Data Analysis Portfolio
 A repository where where my previous projects and Data Analysis experience can be displayed. \
 <br />
 **Project 1: [RCP Research Project](nelsonbulaun/DataAnalysisPortfolio/tree/main/RCPResearchProject)**\
