@@ -1,5 +1,7 @@
 # Data Analysis Portfolio
 A repository where where my previous projects and Data Analysis experience can be displayed. \
+Google Data Analytics Certification: https://coursera.org/share/930192e89d10a668ebb6a215953d00e8 \
+Resume:[NelsonBulaunResume.PDF](/NelsonBulaunResume.PDF)
 <br />
 ## **Project 1: [RCP Research Analysis](/Project%201%20RCP%20Research%20Analysis)**
 _Programs Used/Needed: MATLAB_\
@@ -19,5 +21,4 @@ Relevent Skills Used:
 
 \
 \
-Google Data Analytics Certification: https://coursera.org/share/930192e89d10a668ebb6a215953d00e8 \
-Resume:[NelsonBulaunResume.PDF](/NelsonBulaunResume.PDF)
+
