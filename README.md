@@ -19,4 +19,4 @@ Relevent Skills Used:
 \
 \
 Google Data Analytics Certification: https://coursera.org/share/930192e89d10a668ebb6a215953d00e8 \
-Resume:[NelsonBulaunResume.PDF](nelsonbulaun/DataAnalysisPortfolio/NelsonBulaunResume.PDF)
+Resume:[NelsonBulaunResume.PDF](/NelsonBulaunResume.PDF)
