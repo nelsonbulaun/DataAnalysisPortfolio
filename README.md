@@ -99,7 +99,7 @@ Google Analytics Case Study Project that analyzes data for a fictional bike-shar
 
 <!-- CONTACT -->
 ## Schooling, Resume, and Certifications <a name="school"></a>
-University Of British Columbia, B.Sc in Combined Major in Science (Physics, Chemistry, and Mathematics)
+University Of British Columbia, B.Sc in Combined Major in Science (Physics, Chemistry, and Mathematics) \
 Google Data Analytics Certification: https://coursera.org/share/930192e89d10a668ebb6a215953d00e8 \
 Resume:[NelsonBulaunResume.PDF](/NelsonBulaunResume.PDF)\
 [![LinkedIn][linkedin-shield]][linkedin-url]
