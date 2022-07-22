@@ -68,8 +68,36 @@
 [![Python.js][Python.js]][Python-url] [![MySQL.js][MySQL.js]][MySQL-url] [![Tableau.js][Tableau.js]][Tableau-url]
 ### Required Files
 * not yet uploaded
-### Description: 
-A project consisting of two parts, one that scrapes data from the official nba statistics website then stores it into an SQL database, and the next which takes the name of an nba player then compares their stats with the average statistics of players in the league as well as the average statistics for players who share the same position.\
+### Abstract: 
+A project consisting of two parts, one that scrapes data from the official nba statistics website then stores it into an SQL database, and the next which takes the name of an nba player then compares their stats with the average statistics of players in the league as well as the average statistics for players who share the same position. <br>
+
+### Introduction
+Fantasy basketball is a game in which the each participant drafts and serves as owners of a their own virtual NBA team . There are two types of fantasy basketball leagues that are run, fantasy points leagues, which are significantly more simple, and category leagues (AKA. "Cat Leagues") In simple terms, categorical fantasy leagues work as follows. Each week a player faces a new team, where the winner is decided by whoever's team has a higher total in more categories than their opponent. These categories are points, rebounds, assists, steals, blocks, threes, Field Goal% Free throw%, and turnovers. When the week begins owners set up their active roster, usually around 10 players that the owners want to play, with restrictions limiting player selection based on their position. Usually an active roster is allowed to play 1 Point Guard, 1 Shooting Guard, 1 Small Forward, 1 Power Forward, 1 Center, and around 5 "bench" slots that allow for any position to be played. Towards the beginning of the official NBA season, fantasy basketball drafts occur, where each individual selects the members of their team, most leagues will have a limit to the number of players per position. The fantasy basketball draft is THE PIVOTAL MOMENT of every fantasy league, as the players you select will typically be on your team for the entirety of the season, thereby dictating whether a person will win the season. That’s where this project comes in. Historically, I am inconsistent in this situation, and find myself either doing well or absolutely horrid, so I decided to make a script that'll help me pick players for my team and demolish every league I enter.
+
+### Description
+The project consists of three parts:
+1. creating/modifying a python script that scrapes player statistic data from the nba website then stores it into an SQL Database, 
+2. a script that accesses the aforementioned database to compare their stats with the league average for players who share the same position, and 
+3. the third which does something similar to the second, but uses tableau instead of pandas to take data and create graphics for each of the stats <br>
+
+Part 1: SQL Webscraper
+This script is a modified/updated variation of https://jman4190.medium.com/building-an-nba-mysql-database-with-python-c653fa15333c changing the function that takes the headers, that sort out the order of the column and what data they represent, to be inclusive of stats that were previously not apart of the tables as well as storing an additional column that gives each players position. 
+
+A short description of each script used within this part of the project can be found below, with commented notes within telling the purpose of each line.
+
+[stats](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/) - the containing folder
+* [settings.py](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/settings.py) - is used as a reference in other scripts to initiate the SQL database to connect and create tables 
+* [player_general_traditional_totals_position.py](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/player_general_traditional_totals_positions.py) - The script that is used in scraping data, this takes the nba statistics data table via. url, and creates an object with model class "PlayerGeneralTraditionalTotalPositions". It then assigns each row to fit the appropriate statistic of each player and stores it in the data table. 
+* [Models](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/Models/)- acts as a dict containing 
+    * [\_\_init\_\_](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/Models/__init__.py) - tells where each module within a folder is located
+    * [BaseModel](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/Models/BaseModel.py) - used in the creation of new classes, with the the purpose of passing the database to each class that is generated
+    * [PlayerGeneralTraditionalTotalPositions](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/Models/PlayerGeneralTraditionalTotalPositions.py) - A created class that defines each different statistic of a player as an element, specifying their field types and assigning the class to each player in the final webscraping script. 
+
+Part 2: Player/Position Average Stat graber
+
+Part 3: Tableau 
+Not Yet Uploaded
+
 
 _Relevent Skills Used: web scraping, creating databases, importing data into Databases (SQL), Making Query's_
 <p align="right">(<a href="#top">back to top</a>)</p>
