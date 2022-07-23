@@ -99,9 +99,9 @@ Part 2: Player/Position Average Stat graber
 Part 3: Tableau 
 Initially I had wanted to access the database through Tableau but I without a premium membership I was unable to do such so I exported the the data from the SQL database into a .csv file. After doing this I created a few simple visualizations/tables that showed a variety of information that would be useful in deciding if a player would be useful or not.
 
-https://public.tableau.com/app/profile/nelson.bulaun/viz/NBAPlayerStatistics_16585735629620/PlayerAveragesvsPositionalAverages#1
-https://public.tableau.com/app/profile/nelson.bulaun/viz/NBAPlayerStatistics2/PlayerStatistics
-https://public.tableau.com/app/profile/nelson.bulaun/viz/NBAPlayerStatistics_16585735629620/PlayerAveragesvsPositionalAverages
+* https://public.tableau.com/app/profile/nelson.bulaun/viz/NBAPlayerStatistics_16585735629620/PlayerAveragesvsPositionalAverages#1
+* https://public.tableau.com/app/profile/nelson.bulaun/viz/NBAPlayerStatistics2/PlayerStatistics
+* https://public.tableau.com/app/profile/nelson.bulaun/viz/NBAPlayerStatistics_16585735629620/PlayerAveragesvsPositionalAverages
 
 _Relevent Skills Used: web scraping, creating databases, importing data into Databases (SQL), Making Query's_
 <p align="right">(<a href="#top">back to top</a>)</p>
