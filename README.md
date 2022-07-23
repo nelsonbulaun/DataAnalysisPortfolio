@@ -96,7 +96,14 @@ A short description of each script used within this part of the project can be f
     * [PlayerGeneralTraditionalTotalPositions](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/Models/PlayerGeneralTraditionalTotalPositions.py) - A created class that defines each different statistic of a player as an element, specifying their field types and assigning the class to each player in the final webscraping script. 
 
 #### Part 2: Player/Position Average Stat graber <br>
+Upon downloading the NBA SQL webscraper, attached are 3 scripts, that work together to run the player compare table script. This is a quick way to access the data that was stored in the previous section with the purpose of grabbing a specific player's stats, as well as the average stats at each position, and creating a table to compare the two sets.
 
+Required Files:
+[stats](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/) - the containing folder
+* [getaveragestats.py](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/getaveragestats.py) - Initiates the database, creating a list of four objects, all, guard, forward, and Center, consisting of each position's average statistics for each of the fantasy basketball catagories.
+taking all data where the based on player 
+* [getplayerstats.py](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/getplayerstats.py) - Script that takes in a player's name and initiates the database, creating an object with the player's stats at each catagory. 
+* [playercomparetable.py](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/playercomparetable.py) - Input a player's name and uses the two functions:  [getaveragestats.py](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/getaveragestats.py), and [getplayerstats.py](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/getplayerstats.py), to create a list consisting of a player and the average statistics at each position. The script then uses the pandas module to make a table consisting of each object in the list. 
 
 #### Part 3: Tableau <br> 
 Initially I had wanted to access the database through Tableau but I without a premium membership I was unable to do such so I exported the the data from the SQL database into a .csv file. After doing this I created a few simple visualizations/tables that showed a variety of information that would be useful in deciding if a player would be useful or not.
