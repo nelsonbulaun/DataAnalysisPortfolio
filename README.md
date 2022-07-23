@@ -123,9 +123,14 @@ _Relevent Skills Used: web scraping, creating databases, importing data into Dat
 * [RCP Data Analysis.mlx](/Project%201%20RCP%20Research%20Analysis/RCP%20Data%20Analysis.mlx)
 * [climateStationData.csv](/Project%201%20RCP%20Research%20Analysis/climateStationData.csv)
 * [ClimateModelDataAnnual.csv](/Project%201%20RCP%20Research%20Analysis/ClimateModelDataAnnual.csv)
-<!-- GETTING STARTED -->
+
 ### Description
-A research project completed in University that compares precipitation data from a CMIP5 climate model to real world data to see if a regression model can confidently state if there is a correlation between the two.
+A research project completed in University that compares precipitation data from a CMIP5 climate model to real world data to see if a regression model can confidently state if there is a correlation between the two. 
+<!-- Taking a dataset from the Vancouver Harbour Center station,  -->
+
+
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
