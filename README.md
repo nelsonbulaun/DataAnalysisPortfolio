@@ -66,8 +66,10 @@
 ## **Project 1: [NBA Stat Scraper/Compare Tool](/Project%202%20Divvy%20Trip%20Analysis)** <a name="project-1"></a>
 ### Programs Used/Needed:
 [![Python.js][Python.js]][Python-url] [![MySQL.js][MySQL.js]][MySQL-url] [![Tableau.js][Tableau.js]][Tableau-url]
+
 ### Required Files
-* not yet uploaded
+* [NBA Stat Scraper/Compare Tool](/Project%202%20Divvy%20Trip%20Analysis) _(File section/breakdown can be found in later section)_ 
+
 ### Abstract: 
 A project consisting of two parts, one that scrapes data from the official nba statistics website then stores it into an SQL database, and the next which takes the name of an nba player then compares their stats with the average statistics of players in the league as well as the average statistics for players who share the same position. <br>
 
@@ -80,7 +82,7 @@ The project consists of three parts:
 2. a script that accesses the aforementioned database to compare their stats with the league average for players who share the same position, and 
 3. the third which does something similar to the second, but uses tableau instead of pandas to take data and create graphics for each of the stats <br>
 
-Part 1: SQL Webscraper
+#### Part 1: SQL Webscraper <br>
 This script is a modified/updated variation of https://jman4190.medium.com/building-an-nba-mysql-database-with-python-c653fa15333c changing the function that takes the headers, that sort out the order of the column and what data they represent, to be inclusive of stats that were previously not apart of the tables as well as storing an additional column that gives each players position. 
 
 A short description of each script used within this part of the project can be found below, with commented notes within telling the purpose of each line.
@@ -93,10 +95,10 @@ A short description of each script used within this part of the project can be f
     * [BaseModel](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/Models/BaseModel.py) - used in the creation of new classes, with the the purpose of passing the database to each class that is generated
     * [PlayerGeneralTraditionalTotalPositions](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/Models/PlayerGeneralTraditionalTotalPositions.py) - A created class that defines each different statistic of a player as an element, specifying their field types and assigning the class to each player in the final webscraping script. 
 
-Part 2: Player/Position Average Stat graber
+#### Part 2: Player/Position Average Stat graber <br>
 
 
-Part 3: Tableau 
+#### Part 3: Tableau <br> 
 Initially I had wanted to access the database through Tableau but I without a premium membership I was unable to do such so I exported the the data from the SQL database into a .csv file. After doing this I created a few simple visualizations/tables that showed a variety of information that would be useful in deciding if a player would be useful or not.
 
 * https://public.tableau.com/app/profile/nelson.bulaun/viz/NBAPlayerStatistics_16585735629620/PlayerAveragesvsPositionalAverages#1
