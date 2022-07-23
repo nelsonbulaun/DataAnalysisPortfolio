@@ -70,13 +70,13 @@
 ### Required Files
 * [NBA Stat Scraper/Compare Tool](/Project%202%20Divvy%20Trip%20Analysis) _(File section/breakdown can be found in later section)_ 
 
-### Abstract: 
-A project consisting of two parts, one that scrapes data from the official nba statistics website then stores it into an SQL database, and the next which takes the name of an nba player then compares their stats with the average statistics of players in the league as well as the average statistics for players who share the same position. <br>
+### Description: 
+A project consisting of three parts, a script that scrapes data from the official nba statistics website storing it into an SQL database, a script using multiple user-made functions to access the database and compare player statistics with posiotional averages, and a tableau dashboard (which is currently being expanded) that provides useful statistics and information to aid in fantasy basketball.  <br>
 
-### Introduction
+### Introduction:
 Fantasy basketball is a game in which the each participant drafts and serves as owners of a their own virtual NBA team . There are two types of fantasy basketball leagues that are run, fantasy points leagues, which are significantly more simple, and category leagues (AKA. "Cat Leagues") In simple terms, categorical fantasy leagues work as follows. Each week a player faces a new team, where the winner is decided by whoever's team has a higher total in more categories than their opponent. These categories are points, rebounds, assists, steals, blocks, threes, Field Goal% Free throw%, and turnovers. When the week begins owners set up their active roster, usually around 10 players that the owners want to play, with restrictions limiting player selection based on their position. Usually an active roster is allowed to play 1 Point Guard, 1 Shooting Guard, 1 Small Forward, 1 Power Forward, 1 Center, and around 5 "bench" slots that allow for any position to be played. Towards the beginning of the official NBA season, fantasy basketball drafts occur, where each individual selects the members of their team, most leagues will have a limit to the number of players per position. The fantasy basketball draft is THE PIVOTAL MOMENT of every fantasy league, as the players you select will typically be on your team for the entirety of the season, thereby dictating whether a person will win the season. That’s where this project comes in. Historically, I am inconsistent in this situation, and find myself either doing well or absolutely horrid, so I decided to make a script that'll help me pick players for my team and demolish every league I enter.
 
-### Description
+### Breakdown:
 The project consists of three parts:
 1. creating/modifying a python script that scrapes player statistic data from the nba website then stores it into an SQL Database, 
 2. a script that accesses the aforementioned database to compare their stats with the league average for players who share the same position, and 
@@ -98,7 +98,7 @@ _A short description of each script used within this part of the project can be 
 #### Part 2: Player/Position Average Stat graber <br>
 Upon downloading the NBA SQL webscraper, attached are 3 scripts, that work together to run the player compare table script. This is a quick way to access the data that was stored in the previous section with the purpose of grabbing a specific player's stats, as well as the average stats at each position, and creating a table to compare the two sets.
 
-###### Assosciated Files:<br>
+**Assosciated Files:**<br>
 [stats](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/) - the containing folder
 * [getaveragestats.py](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/getaveragestats.py) - Initiates the database, creating a list of four objects, all, guard, forward, and Center, consisting of each position's average statistics for each of the fantasy basketball catagories.
 taking all data where the based on player 
