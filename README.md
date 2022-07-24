@@ -108,6 +108,8 @@ taking all data where the based on player
 ### Part 3: Tableau <br> 
 Initially I had wanted to access the database through Tableau but I without a premium membership I was unable to do such so I exported the the data from the SQL database into a .csv file. After doing this I created a few simple visualizations/tables that showed a variety of information that would be useful in deciding if a player would be useful or not.
 
+**Associated Files** <br>
+
 * https://public.tableau.com/app/profile/nelson.bulaun/viz/NBAPlayerStatistics_16585735629620/PlayerAveragesvsPositionalAverages#1
 * https://public.tableau.com/app/profile/nelson.bulaun/viz/NBAPlayerStatistics2/PlayerStatistics
 * https://public.tableau.com/app/profile/nelson.bulaun/viz/NBAPlayerStatistics_16585735629620/PlayerAveragesvsPositionalAverages
