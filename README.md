@@ -86,7 +86,7 @@ The project consists of three parts:
 This script is a modified/updated variation of https://jman4190.medium.com/building-an-nba-mysql-database-with-python-c653fa15333c changing the function that takes the headers, that sort out the order of the column and what data they represent, to be inclusive of stats that were previously not apart of the tables as well as storing an additional column that gives each players position. _A short description of each script used within this part of the project can be found below, with commented notes within telling the purpose of each line._ <br>
 
 
-**Assosciated Files** <br>
+**Associated Files** <br>
 [stats](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/) - the containing folder
 * [settings.py](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/settings.py) - is used as a reference in other scripts to initiate the SQL database to connect and create tables 
 * [player_general_traditional_totals_position.py](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/player_general_traditional_totals_positions.py) - The script that is used in scraping data, this takes the nba statistics data table via. url, and creates an object with model class "PlayerGeneralTraditionalTotalPositions". It then assigns each row to fit the appropriate statistic of each player and stores it in the data table. 
@@ -98,7 +98,7 @@ This script is a modified/updated variation of https://jman4190.medium.com/build
 #### Part 2: Player/Position Average Stat graber <br>
 Upon downloading the NBA SQL webscraper, attached are 3 scripts, that work together to run the player compare table script. This is a quick way to access the data that was stored in the previous section with the purpose of grabbing a specific player's stats, as well as the average stats at each position, and creating a table to compare the two sets.
 
-**Assosciated Files:**<br>
+**Associated Files:**<br>
 [stats](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/) - the containing folder
 * [getaveragestats.py](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/getaveragestats.py) - Initiates the database, creating a list of four objects, all, guard, forward, and Center, consisting of each position's average statistics for each of the fantasy basketball catagories.
 taking all data where the based on player 
