@@ -127,17 +127,18 @@ _Relevent Skills Used: web scraping, creating databases, importing data into Dat
 ### Description
 A University research project with the goal of finding the correlation between a climate model's estimated green house gass effect and real world data. This is completed through regression analysis between the yearly precipitation levels on data measured at the Vancouver Harbour Weather Station and Vancouver's predicted precipitation by the CMIP5 climate model. Through this research we found that we are unable to confidently state that there is a strong correlation between each of the models and the actual data taken.  <br>
 
-###Background Information: <br>
+### Background Information: 
 Looking into models, we chose the CMIP5 climate mode which is a coordinated climate modeling exercise involving 20 climate-modeling groups from around the world and has provided a standard experimental protocol for producing and studying the output of many different global climate models.  From the CMIP5 climate models, we chose datasets relating to different Representative Concentration Pathways (RCP), which represents scenarios with different concentrations of greenhouse gas (GHG) emissions, which allows scientists to model climate change to build scenarios about the impacts of climate change and to help plan for the future. 
 
-### Sample Figures: <br>
+### Sample Figures: 
+Shown below are some of the figures that were produced within the script as a visualization for the comparissons in values between various datasets.
 
 <div align="center">
-
     
 ![image](https://user-images.githubusercontent.com/108250880/180628108-a7080bc8-e62e-4cec-a4be-d6af478f7986.png)
 ![image](https://user-images.githubusercontent.com/108250880/180628084-1e64a99c-d474-449a-9e14-c9809e8ad903.png)
 ![image](https://user-images.githubusercontent.com/108250880/180628095-f01dc817-3062-4d3f-a6f4-acf481bfe2ea.png)
+    
  </div>
  
 Relevent Skills Used: web scraping, creating databases, importing data into Databases (SQL), Making Query's
