@@ -83,10 +83,10 @@ The project consists of three parts:
 3. the third which does something similar to the second, but uses tableau instead of pandas to take data and create graphics for each of the stats <br>
 
 #### Part 1: SQL Webscraper <br>
-This script is a modified/updated variation of https://jman4190.medium.com/building-an-nba-mysql-database-with-python-c653fa15333c changing the function that takes the headers, that sort out the order of the column and what data they represent, to be inclusive of stats that were previously not apart of the tables as well as storing an additional column that gives each players position. 
+This script is a modified/updated variation of https://jman4190.medium.com/building-an-nba-mysql-database-with-python-c653fa15333c changing the function that takes the headers, that sort out the order of the column and what data they represent, to be inclusive of stats that were previously not apart of the tables as well as storing an additional column that gives each players position. _A short description of each script used within this part of the project can be found below, with commented notes within telling the purpose of each line._ <br>
+
 
 **Assosciated Files** <br>
-_A short description of each script used within this part of the project can be found below, with commented notes within telling the purpose of each line._ <br>
 [stats](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/) - the containing folder
 * [settings.py](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/settings.py) - is used as a reference in other scripts to initiate the SQL database to connect and create tables 
 * [player_general_traditional_totals_position.py](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/player_general_traditional_totals_positions.py) - The script that is used in scraping data, this takes the nba statistics data table via. url, and creates an object with model class "PlayerGeneralTraditionalTotalPositions". It then assigns each row to fit the appropriate statistic of each player and stores it in the data table. 
