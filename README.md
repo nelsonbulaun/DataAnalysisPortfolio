@@ -82,7 +82,7 @@ The project consists of three parts:
 2. a script that accesses the aforementioned database to compare their stats with the league average for players who share the same position, and 
 3. the third which does something similar to the second, but uses tableau instead of pandas to take data and create graphics for each of the stats <br>
 
-#### Part 1: SQL Webscraper <br>
+### Part 1: SQL Webscraper <br>
 This script is a modified/updated variation of https://jman4190.medium.com/building-an-nba-mysql-database-with-python-c653fa15333c changing the function that takes the headers, that sort out the order of the column and what data they represent, to be inclusive of stats that were previously not apart of the tables as well as storing an additional column that gives each players position. _A short description of each script used within this part of the project can be found below, with commented notes within telling the purpose of each line._ <br>
 
 
@@ -95,7 +95,7 @@ This script is a modified/updated variation of https://jman4190.medium.com/build
     * [BaseModel](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/Models/BaseModel.py) - used in the creation of new classes, with the the purpose of passing the database to each class that is generated
     * [PlayerGeneralTraditionalTotalPositions](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/Models/PlayerGeneralTraditionalTotalPositions.py) - A created class that defines each different statistic of a player as an element, specifying their field types and assigning the class to each player in the final webscraping script. 
 
-#### Part 2: Player/Position Average Stat graber <br>
+### Part 2: Player/Position Average Stat graber <br>
 Upon downloading the NBA SQL webscraper, attached are 3 scripts, that work together to run the player compare table script. This is a quick way to access the data that was stored in the previous section with the purpose of grabbing a specific player's stats, as well as the average stats at each position, and creating a table to compare the two sets.
 
 **Associated Files:**<br>
@@ -105,7 +105,7 @@ taking all data where the based on player
 * [getplayerstats.py](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/getplayerstats.py) - Script that takes in a player's name and initiates the database, creating an object with the player's stats at each catagory. 
 * [playercomparetable.py](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/playercomparetable.py) - Input a player's name and uses the two functions:  [getaveragestats.py](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/getaveragestats.py), and [getplayerstats.py](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/getplayerstats.py), to create a list consisting of a player and the average statistics at each position. The script then uses the pandas module to make a table consisting of each object in the list. 
 
-#### Part 3: Tableau <br> 
+### Part 3: Tableau <br> 
 Initially I had wanted to access the database through Tableau but I without a premium membership I was unable to do such so I exported the the data from the SQL database into a .csv file. After doing this I created a few simple visualizations/tables that showed a variety of information that would be useful in deciding if a player would be useful or not.
 
 * https://public.tableau.com/app/profile/nelson.bulaun/viz/NBAPlayerStatistics_16585735629620/PlayerAveragesvsPositionalAverages#1
