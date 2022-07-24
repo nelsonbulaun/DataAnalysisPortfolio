@@ -111,9 +111,8 @@ Initially I had wanted to access the database through Tableau but I without a pr
 
 **Associated Files** <br>
 
-* https://public.tableau.com/app/profile/nelson.bulaun/viz/NBAPlayerStatistics_16585735629620/PlayerAveragesvsPositionalAverages#1
-* https://public.tableau.com/app/profile/nelson.bulaun/viz/NBAPlayerStatistics2/PlayerStatistics
 * https://public.tableau.com/app/profile/nelson.bulaun/viz/NBAPlayerStatistics_16585735629620/PlayerAveragesvsPositionalAverages
+* https://public.tableau.com/app/profile/nelson.bulaun/viz/NBAPlayerStatistics2/PlayerStatistics
 
 _Relevent Skills Used: web scraping, creating databases, importing data into Databases (SQL), Making Query's_
 <p align="right">(<a href="#top">back to top</a>)</p>
