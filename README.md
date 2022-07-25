@@ -117,7 +117,7 @@ Initially I had wanted to access the database through Tableau but I without a pr
 _Relevent Skills Used: web scraping, creating databases, importing data into Databases (SQL), Making Query's_
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Project 2: [RCP Research Analysis](/Project%201%20RCP%20Research%20Analysis) <a name="project-2"></a>
+## Project 2: [RCP Research Analysis](/Project%202%20RCP%20Research%20Analysis) <a name="project-2"></a>
 ### Programs Used/Needed:
 [![MATLAB.js][MATLAB.js]][MATLAB-url]
 
@@ -148,7 +148,7 @@ Relevent Skills Used: web scraping, creating databases, importing data into Data
 
   
 
-## **Project 3: [Divvy Trips Analysis](/Project%202%20Divvy%20Trip%20Analysis)** <a name="project-3"></a>
+## **Project 3: [Divvy Trips Analysis](/Project%203%20Divvy%20Trip%20Analysis)** <a name="project-3"></a>
 ### Programs Used/Needed:
 [![R.js][r.js]][r-url] [![Tableau.js][Tableau.js]][Tableau-url]
 ### Required Files
