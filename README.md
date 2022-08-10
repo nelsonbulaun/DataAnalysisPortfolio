@@ -143,8 +143,8 @@ Shown below are some of the figures that were produced within the script as a vi
     
  </div>
  
-Relevent Skills Used: web scraping, creating databases, importing data into Databases (SQL), Making Query's
-<p align="right">(<a href="#top">back to top</a>)</p>
+<!-- Relevent Skills Used: web scraping, creating databases, importing data into Databases (SQL), Making Query's
+<p align="right">(<a href="#top">back to top</a>)</p> -->
 
   
 
