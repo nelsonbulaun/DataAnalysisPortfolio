@@ -104,9 +104,7 @@ Upon downloading the NBA SQL webscraper, attached are 3 scripts, that work toget
 * [getaveragestats.py](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/getaveragestats.py) - Initiates the database, creating a list of four objects, all, guard, forward, and Center, consisting of each position's average statistics for each of the fantasy basketball catagories.
 taking all data where the based on player 
 * [getplayerstats.py](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/getplayerstats.py) - Script that takes in a player's name and initiates the database, creating an object with the player's stats at each catagory. - Recently updated to take in a list of players, and produces an html link showing a color mapped dataframe with intensity levels of green and red corresponding to if the stats are greater or less than the average of their position.
-<div align="center">
 ![image](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/SampleTableImage.jpg)
-</div>
 * [playercomparetable.py](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/playercomparetable.py) - Input a player's name and uses the two functions:  [getaveragestats.py](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/getaveragestats.py), and [getplayerstats.py](/Project%201%20NBA%20SQL-Python%20Scraper20and%20Player%20Analyzer/stats/getplayerstats.py), to create a list consisting of a player and the average statistics at each position. The script then uses the pandas module to make a table consisting of each object in the list. 
 
 ### Part 3: Tableau <br> 
