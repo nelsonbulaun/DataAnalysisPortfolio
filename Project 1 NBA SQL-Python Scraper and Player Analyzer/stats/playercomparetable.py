@@ -28,6 +28,12 @@ def background_with_norm(s):
     #norm = matplotlib.colors.TwoSlopeNorm(vmin=s[1]*0.75, vcenter=s[1], vmax=s.values.max())
     return ['background-color: {:s}'.format(matplotlib.colors.to_hex(c.flatten())) for c in cmap(norm(s.values))]
 
+def background_with_normto(s):
+    cmap = matplotlib.cm.get_cmap('RdYlGn_r')
+    norm = matplotlib.colors.TwoSlopeNorm(vmin=s[0]*0.75, vcenter=s[0], vmax=s[0]*1.25)
+    #norm = matplotlib.colors.TwoSlopeNorm(vmin=s[1]*0.75, vcenter=s[1], vmax=s.values.max())
+    return ['background-color: {:s}'.format(matplotlib.colors.to_hex(c.flatten())) for c in cmap(norm(s.values))]
+
 styles = [
     dict(selector="tr:hover",
                 props=[("background", "#f4f4f4")]),
@@ -77,7 +83,9 @@ def comparemultiple(listofnames):
         ComparingList.append(ListOfStatPositions[0])
         print(ComparingList)
     df = pd.DataFrame.from_records([x.as_dict() for x in ComparingList])
-    html = df.style.set_table_styles(styles).apply(background_with_norm, subset = pd.IndexSlice[0:len(listofnames),["Three Pointers Made",  "Fieldgoal Percentage", "Freethrow Percentage", "Rebounds","Assists","Turnovers","Steals", "Blocks","Points"]]).to_html()
+    html = df.style.set_table_styles(styles).apply(background_with_norm, subset = pd.IndexSlice[0:len(listofnames),["Three Pointers Made",  "Fieldgoal Percentage", "Freethrow Percentage", "Rebounds","Assists",
+    #"Turnovers",
+    "Steals", "Blocks","Points"]]).apply(background_with_normto, subset = pd.IndexSlice[0:len(listofnames),["Turnovers"]]).to_html()
     text_file = open("playercomparetable.html", "w")
     text_file.write(html)
     text_file.close()
